@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Helluva</title>
+    <style>
+        body{
+            font-family: Google Sans;
+        }
+        .logoimg{
+            border-radius: 15px;
+            box-shadow: 0px 2px 40px 0px rgb(255, 255, 255);
+            margin-right: 30px;
+        }
+        .header{
+            width: 100%;
+            color: white;
+            padding: 20px;
+            background: rgb(80, 0, 0);
+            box-sizing: border-box;
+        }
+        .headermenu{
+            display: flex;
+            flex-grow: 3;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .menuitem{
+            list-style: none;
+        }
+        .menulink, .menulink1{
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+        }
+        .container{
+            max-width: 1140px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+        .bannertitle, .bannerdescriptions{
+            text-align: center;
+            color: white;
+        }
+        .bannersection{
+            padding: 100px 0;
+            background: rgb(61, 61, 61);
+            background-size: cover;
+            background-position: center;
+        }
+        .bannertitle{
+            font-size: 48px;
+        }
+        .cards-section{
+            padding: 50px 0px;
+        }
+        .cardestitle, .cardsdescription{
+            text-align: center;
+        }
+        .cardestitle{
+            font-size: 50px;
+        }
+        .cards{
+            background: rgb(255, 255, 255);
+            padding: 40px;
+            margin-top: 25px;
+            width: 25%;
+            box-shadow: 0px 2px 40px 0px red;
+            text-align: center;
+            border-radius: 20px;
+            display: flex;
+        }
+        .cardlink{
+            text-decoration: none;
+            background-color: blueviolet;
+            padding: 10px;
+            color: bisque;
+            border-radius: 20px;
+        }
+        .cardimg{
+            border-radius: 20px;
+        }
+        .headerlogo{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .menu{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .headerrow{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .cardsrow1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="headerrow">
+            <div class="container">
+                <div class="headerlogo">
+                    <img class="logoimg" src="blitz.jpg" width="80" height="80" alt="">
+                    <h1 class="logotitle">
+                    Адский босс
+                    </h1>
+                </div>
+                <div class="headermenu">
+                    <ul class="menu">
+                        <li class="menuitem">
+                            <a class="menulink1" href="#">Главная</a>
+                        </li>
+                        <li class="menuitem">
+                            <a class="menulink1" href="#">Описание</a>
+                        </li>
+                        <li class="menuitem">
+                            <a class="menulink1" href="#metka">Персонажи</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="bannersection">
+            <div class="container">
+                <div class="bannertext">
+                    <h1 class="bannertitle">Персонажи</h1>
+                    <div class="bannerdescriptions">
+                        <a href="#" class="menulink">Главная</a> &#x2192 <a href="#" class="menulink">Виды</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cardssection">
+            <a name="metka">
+            <div class="container">
+                <a name="metka"></a>
+                <div class="cardstext">
+                    <h1 class="cardestitle">Персоажи</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="cardsdescription"></div>
+                </div>
+            <div class="cardsrow1">
+                <div class="cards">
+                    <div class="cardsrow">
+                        <div class="card">
+                            <img class="cardimg" width="220" height="220" src="stolas.jpg" alt="">
+                            <div class="cardbody">
+                                <h3 class="cardtitle">Столас</h3>
+                                <div class="cardtext">Принц Столас (озвучивает Брайс Пинкхэм, Брок Бейкер — Пилот) — гоэтиальный демон ада в сложных отношениях с Блитцем. (Бывший) супруг Стеллы, отец Октавии и сын девятого духа Гоетии — Короля Пеймона. Внешне выглядит как антропоморфная сова, что соответствует его образу, в котором он является вызывающим его людям-оккультистам.</div>
+                                <br>
+                                <div class="cardbotton">
+                                    <a class="cardlink" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="cardsrow">
+                        <div class="card">
+                            <img class="cardimg" width="220" height="220" src="loona.jpg" alt="">
+                            <div class="cardbody">
+                                <h3 class="cardtitle">Луна</h3>
+                                <div class="cardtext">Луна (озвучивает Эрика Линдбек) — адская гончая, секретарша I.M.P. (хотя она почти не выполняет свою работу, как видно из пилота). Обычно её не интересуют дела, которые происходят вокруг. Луна груба и апатична по отношению к своим коллегам. Она — приёмная дочь Блитца, и относится к нему чуть мягче, чем к остальным.</div>
+                                <br>
+                                <div class="cardbotton">
+                                    <a class="cardlink" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="cardsrow">
+                        <div class="card">
+                            <img class="cardimg" width="220" height="220" src="moxxi.jpg" alt="">
+                            <div class="cardbody">
+                                <h3 class="cardtitle">Мокси</h3>
+                                <div class="cardtext">Мокси (озвучивает Ричард Стивен Хорвиц) — натуралист из I.M.P., женат на Милли. Его часто раздражает то, что Блитц преследует его и вмешивается в личную жизнь, а также привычка Милли и Блитца без надобности тратить деньги. Имеет садистские наклонности.</div>
+                                <br>
+                                <br>
+                                <div class="cardbotton">
+                                    <a class="cardlink" href="#">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
